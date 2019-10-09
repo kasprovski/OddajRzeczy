@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.StartHelping {
+    color:rgb(66, 66, 66);
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    height: 45rem;
+  }
+  
+.LeftSide {
+  width: 52%;
+  background: url("../Pictures/box.jpeg") center/cover;
+}
+
+.RightSide {
+  width: 50%;
+  display: block;
+}
+
+.TopButtons, .BotButtons {
+  display: flex;
+  position: right;
+  justify-content:flex-end;
+  padding: 0.5rem 7rem 0 0;
+}
+.TopButtons a{
+  padding: 0.8rem;
+  margin: 2rem 2rem;
+  text-decoration: none;
+  color: rgb(66, 66, 66)
+}
+
+.TopButtons>div {
+  margin-top: 2rem;
+}
+
+.BotButtons ul{
+  justify-content: space-around;
+  display: flex;
+  list-style: none;
+  white-space: nowrap;
+}
+.BotButtons ul li{
+  width: 10rem;
+  width: 5rem;
+  text-align: center;
+  width: auto;
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+}
+.BotButtons ul li:hover{
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.BotText {
+  margin-top: 6rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.Decoration{
+  margin: 2rem auto 5rem auto;
+  height: 2rem;
+  background: url("../Pictures/decoration.png") center no-repeat;
+}
+
+.DeepButtons {
+  justify-content: space-around;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.DeepButtons div{
+  text-align: center;
+  border: 1px solid grey;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  width: 19rem;
+}
+
+.DeepButtons div:hover{
+  cursor: pointer;
+} 

@@ -1,0 +1,94 @@
+.ContactUs{
+    /* margin: 5rem 5rem 0 5rem; */
+    display: flex;
+    justify-content: space-between;
+    height: 45.4rem;
+}
+
+.Sweetphoto{
+    position: relative;
+    width: 53%;
+    background: url("../Pictures/sweatersss.png");
+    background-size: cover;
+}
+
+.Sweetphoto div{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.NextSweet {
+    max-height: 45.4rem;
+    width: 47%;
+    background-image: linear-gradient(to right bottom, #F4E8DE, #EFDDC5, #ECF0EF, #ECF0EF);
+    position: relative;
+}
+
+.ContForm{
+    width: 70%;
+    margin: 10rem auto;
+    position: relative;
+    font-size: 1.55rem;
+}
+
+.Putsin{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.ContForm input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.Msg{
+    width: 100%;
+}
+
+.ContForm button{
+    position: relative;
+    top: 5rem;
+    left: 40%;
+    background: none;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+}
+.ContForm button:hover{
+  cursor: pointer;
+}
+
+.NextSweet .Cont{
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+}
+
+.FacebookIcon{
+    position: absolute;
+    bottom:1%;
+    left: 80%;
+    width: 4rem;
+    height: 4rem;
+    background: url("../Pictures/FB_logo.jpg") center no-repeat;
+}
+
+.NextSweet .InstIcon{
+    position: absolute;
+    bottom: 1%;
+    left: 90%;
+    width: 4rem;
+    height: 4rem;
+    background: url("../Pictures/Inst_logo.jpg") center no-repeat;
+}
+
+.InstIcon:hover{
+    cursor: pointer;
+}
+
+.FacebookIcon:hover{
+    cursor: pointer;
+    margin: 0
+}

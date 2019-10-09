@@ -1,0 +1,34 @@
+.WhatWeDid{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    color:rgb(66, 66, 66);
+    background: url(../Pictures/tlo.png);
+    /* repeating-linear-gradient(
+    90deg,
+    #fb7202,
+    #a33b12 3px,
+    #be9f12 3px,
+    #e0950a 8px
+    ); */
+}
+
+.Container{
+    width: 30%;
+    margin: 2rem;
+}
+
+.Number {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.ThingsDone{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 2rem 0;
+}
+
+.Description{
+    text-align: center;
+}

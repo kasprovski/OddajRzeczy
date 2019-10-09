@@ -1,0 +1,24 @@
+.AboutUs{
+    background-color: #EFEFEF;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.AboutUs p{
+    font-size: 3rem;
+}
+
+.PeoplePictures{
+    min-width: 50%;
+    height: 60rem;
+    background: url("../Pictures/about.jpg") center no-repeat;
+}
+
+.Sententia{
+    margin: 0 10%;
+}
+.Signature{
+    margin: 2rem 0 3rem 20rem;
+    height: 10rem;
+    background: url("../Pictures/signature.jpg") center no-repeat;
+}

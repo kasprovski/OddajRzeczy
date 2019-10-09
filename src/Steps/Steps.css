@@ -1,0 +1,52 @@
+.Steps{
+    color:rgb(66, 66, 66);
+    background-color: #ffffff;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.Steps>p{
+    font-size: 3rem;
+}
+
+.Middle {
+    display: flex;
+    justify-content: space-around;
+    background-color: #EBEBEB;
+    margin: 0 15rem;
+    height: 25rem;
+    padding: 4rem
+}
+
+.OrderDescription{
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+    margin: 0.4rem 3rem;
+}
+
+
+
+.Idea{
+    margin: 2rem auto 3rem auto;
+    height: 4rem;
+    background: url("../Pictures/idea.jpg") center no-repeat;
+}
+
+.Arrow{
+    margin: 2rem auto 3rem auto;
+    height: 4rem;
+    background: url("../Pictures/arrow.jpg") center no-repeat;
+}
+
+.Googles{
+    margin: 2rem auto 3rem auto;
+    height: 4rem;
+    background: url("../Pictures/googles.jpg") center no-repeat;
+}
+
+.SwitchArrow{
+    margin: 2rem auto 3rem auto;
+    height: 4rem;
+    background: url("../Pictures/switch_arrow.jpg") center no-repeat;
+}
+    
